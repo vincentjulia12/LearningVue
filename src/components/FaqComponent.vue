@@ -11,7 +11,7 @@ export default {
     props: ['faq', 'index'],
     mounted(){
        
-    }
+    } 
 }
 </script>
 
