@@ -29,3 +29,13 @@
       @content;
     }
   }
+
+  @mixin light {
+    background: $body-color-white;
+    color: $text-color-black;
+  }
+
+  @mixin dark {
+    background: $body-color-black;
+    color: $text-color-white;
+  }

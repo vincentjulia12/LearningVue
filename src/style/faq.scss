@@ -1,0 +1,14 @@
+@import './scss/function';
+@import './scss/mixin';
+@import './scss/variables';
+
+.faq {
+    display: block;
+    width: 100%;
+    max-width: 768px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff; 
+}
