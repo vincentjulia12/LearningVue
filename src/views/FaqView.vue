@@ -1,6 +1,6 @@
 <template>
     <div class="faqs">
-        <FaqComponent v-for="(faq, i) in faqs" :faq="faq" :index="i" :key="i" />
+        <FaqComponent v-for="(faq, i) in faqs" :faq="faq" :index="i" :key="i" :open="faq.open" @toggleOpen="toggleOpen"/>
     </div>
 </template>
 
@@ -28,6 +28,19 @@ export default {
                     open: false
                 },
             ]
+        }
+    },
+    methods: {
+        toggleOpen: function(index) {
+            this.faqs = this.faqs.map((faq, i) => {
+                if (index === i) {
+                    faq.open = !faq.open;
+                } else {
+                    faq.open = false;
+                }
+
+                return faq;
+            });
         }
     }
 }

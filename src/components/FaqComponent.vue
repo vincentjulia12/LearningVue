@@ -1,5 +1,5 @@
 <template>
-    <div class="faq">
+    <div :class="open ? 'faq open' : 'faq'" @click ="$emit('toggleOpen', index)">
         <div class="question"><p>{{faq.question}}</p></div>
         <div class="answer"><p>{{faq.answer}}</p></div>  
     </div>
@@ -8,10 +8,7 @@
 <script>
 export default {
     name: "FaqComponent",
-    props: ['faq', 'index'],
-    mounted(){
-       
-    }
+    props: ['faq', 'index', 'open']
 }
 </script>
 
