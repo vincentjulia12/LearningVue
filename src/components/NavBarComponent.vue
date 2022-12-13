@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-        <div class="container">
+        <div class="container d-flex justify-content-center align-items-center">
             <router-link class="navbar-brand" to="/"><span id="first-name">Vincent</span></router-link> 
             <div class="d-flex justify-content-end collapse navbar-collapse">
                 <ul class="navbar-nav">
@@ -26,8 +26,6 @@
             </div>
         </div>
     </nav>
-
-
 </template>
 
 <script>

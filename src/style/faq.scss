@@ -17,7 +17,7 @@
     position: relative;
     color: #3c3c3c;
     font-size: 20px;
-    transition: all 0.4s linear;
+    transition: all 0.2s linear;
 }
 
 .faq .question::after {
@@ -31,12 +31,12 @@
     width: 30px;
     height: 30px;
    
-    // background-image: url('../assets/arrow.png');
+    background-image: url('@/assets/arrow-down-solid.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 
-    transition: all 0.2s linear;
+    transition: all 0.4s linear;
 }
 
 .faq.open .question {
