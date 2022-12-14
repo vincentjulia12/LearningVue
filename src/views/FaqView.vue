@@ -23,7 +23,17 @@ export default {
                     open: false
                 },
                 {
-                    question: "San ka natakatira? ",
+                    question: "Sino ka ba? ",
+                    answer: "twinkle",
+                    open: false
+                },
+                {
+                    question: "favorite movie? ",
+                    answer: "kantutan",
+                    open: false
+                },
+                {
+                    question: "sdasdasdasasd? ",
                     answer: "Di ko alam gago",
                     open: false
                 },

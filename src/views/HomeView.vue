@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-5">
+  <div class="container-sm mt-5">
     <div class="row">
       <div class="col text-center">
         <img alt="Vue logo" src="../assets/logo.png"/>
@@ -10,6 +10,7 @@
       </div>
     </div>
   </div>
+
 </template>
 
 <script>

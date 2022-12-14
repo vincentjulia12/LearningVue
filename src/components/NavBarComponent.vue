@@ -1,8 +1,11 @@
 <template>
     <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-        <div class="container d-flex justify-content-center align-items-center">
-            <router-link class="navbar-brand" to="/"><span id="first-name">Vincent</span></router-link> 
-            <div class="d-flex justify-content-end collapse navbar-collapse">
+        <div id="nav-container" class="container d-flex justify-content-center align-items-center">
+            <div>
+                <router-link class="navbar-brand" to="/"><span id="first-name">Vincent</span></router-link> 
+            </div>
+           
+            <div id="nav-right-section" class="d-flex justify-content-end collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <router-link class="nav-link px-3" to="/"><span id="hover">Home</span></router-link>
