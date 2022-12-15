@@ -1,6 +1,11 @@
 <template>
-    <div class="faqs">
-        <FaqComponent v-for="(faq, i) in faqs" :faq="faq" :index="i" :key="i" :open="faq.open" @toggleOpen="toggleOpen"/>
+    <div class="faqs ">
+        <div class="text-muted">
+            <h6>Sample Faqs</h6>
+        </div>
+        <div>
+            <FaqComponent v-for="(faq, i) in faqs" :faq="faq" :index="i" :key="i" :open="faq.open" @toggleOpen="toggleOpen"/>
+        </div>
     </div>
 </template>
 
@@ -14,12 +19,12 @@ export default {
             faqs: [
                 {
                     question: "What is your name? ",
-                    answer: "Vincent Julia",
+                    answer: "asda sdasd asda sdasdas dasd asda sdasd asd asd asda sd asda sdasasd asdasd asdasd asd asd asdas dasd asda sdas asd asdasdas dasd a",
                     open: false
                 },
                 {
                     question: "Tangina ka ba?",
-                    answer: "Yes",
+                    answer: "a sdas dasdas dakmsd kasmdla smlfejr wemrwer wmskdsdfpskd pfkpkwepfk wkflsdfls,d pfkwefsdf;,sdf,s ldfsdlmfsdmf weofsmdfdmfkswefn sdf sdkn",
                     open: false
                 },
                 {
@@ -29,7 +34,7 @@ export default {
                 },
                 {
                     question: "favorite movie? ",
-                    answer: "kantutan",
+                    answer: "kantutan dsfsndj fnsdfj sdfs dfsdfs dfksdnk fnsdkfn skdnfsdfksldfslkdnfksldnf ksldnfsdfsd[sdf ksdfwepfj sdfjsdfjwf sdfos[df sdf sd[[sdfjs dfsdjfssd fsjdifskdjsdgosodf vincent julia 12 alam ko vovo kaasd asda]]]]",
                     open: false
                 },
                 {

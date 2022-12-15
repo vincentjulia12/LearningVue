@@ -39,3 +39,9 @@
     background: $body-color-black;
     color: $text-color-white;
   }
+
+  @mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
