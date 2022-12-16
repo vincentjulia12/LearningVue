@@ -18,11 +18,6 @@
     </div>
    </div>
 
-      
-
- 
-
-   
 </template>
   
 <script>
