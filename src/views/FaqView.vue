@@ -5,7 +5,9 @@
         </div>
         <div>
             <FaqComponent v-for="(faq, i) in faqs" :faq="faq" :index="i" :key="i" :open="faq.open" @toggleOpen="toggleOpen"/>
+            
         </div>
+       
     </div>
 </template>
 

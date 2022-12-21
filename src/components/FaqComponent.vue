@@ -1,7 +1,7 @@
 <template>
     <div :class=" open ? 'faq open' : 'faq'" @click ="$emit('toggleOpen', index)">
-        <div class="question"><p>{{faq.question}}</p></div>
-        <div class="answer text-muted"><p>{{faq.answer}}</p></div>  
+        <div class="question"><p class="question">{{faq.question}}</p></div>
+        <div class="answer text-muted"><p class="answer text-muted">{{faq.answer}}</p></div>  
     </div>
 </template>
 

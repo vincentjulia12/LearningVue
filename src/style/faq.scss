@@ -12,6 +12,10 @@
     border-radius: 1rem;
     border: 1px solid rgb(219, 229, 255);
     background-color: #fff; 
+
+    :hover {
+        cursor: pointer;
+    }
 }
 
 .faq .question {
@@ -41,7 +45,7 @@
 }
 
 .faq.open .question {
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 
 .faq.open .question::after {
