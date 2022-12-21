@@ -13,8 +13,6 @@ export default {
 </script>
 
 <style>
-div {
-    background: #fff;
-}
+
 </style>
 
