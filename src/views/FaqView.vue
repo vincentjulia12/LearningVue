@@ -5,7 +5,6 @@
         </div>
         <div>
             <FaqComponent v-for="(faq, i) in faqs" :faq="faq" :index="i" :key="i" :open="faq.open" @toggleOpen="toggleOpen"/>
-            
         </div>
        
     </div>
@@ -20,8 +19,8 @@ export default {
         return {
             faqs: [
                 {
-                    question: "What is your name? ",
-                    answer: "asda sdasd asda sdasdas dasd asda sdasd asd asd asda sd asda sdasasd asdasd asdasd asd asd asdas dasd asda sdas asd asdasdas dasd a",
+                    question: "TANGA BA SI CYRUS? ",
+                    answer: "oo syempre",
                     open: false
                 },
                 {
